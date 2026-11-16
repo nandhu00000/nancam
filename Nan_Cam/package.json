@@ -5,9 +5,7 @@
   "homepage": "https://github.com/Cappricio-Securities/camjacking",
   "main": "main.js",
   "bin": {
-    "NanCam": "./main.js",
-    "CamJacking": "./camjacking.js",
-    "cam-jacking": "./camjacking.js"
+    "nancam": "./main.js"
   },
   "scripts": {
     "start": "node main.js"
@@ -49,7 +47,7 @@
     "karthithehacker"
   ],
   "files": [
-    "camjacking.js",
+    "main.js",
     "includes",
     "README.md",
     "LICENSE"
