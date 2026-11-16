@@ -1,16 +1,16 @@
 {
-  "name": "camjacking",
+  "name": "nancam",
   "version": "0.0.3",
   "description": "CamJacking is an open-source ethical hacking and social engineering simulation tool for security awareness and penetration testing. It helps organizations test human negligence, webcam permission abuse, and security posture in real-world scenarios.",
   "homepage": "https://github.com/Cappricio-Securities/camjacking",
-  "main": "camjacking.js",
+  "main": "main.js",
   "bin": {
-    "camjacking": "./camjacking.js",
+    "NanCam": "./main.js",
     "CamJacking": "./camjacking.js",
     "cam-jacking": "./camjacking.js"
   },
   "scripts": {
-    "start": "node camjacking.js"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
